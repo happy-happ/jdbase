@@ -1,8 +1,8 @@
 FROM node:lts-alpine
-ARG JD_BASE_URL=https://hub.fastgit.org/happy-happ/jd-base
+ARG JD_BASE_URL=https://hub.fastgit.org/wuzhi-docker1/jd-base
 ARG JD_BASE_BRANCH=main
-ARG JD_SCRIPTS_URL=https://gitee.com/oolool/jd_scripts.git
-ARG JD_SCRIPTS_BRANCH=master
+ARG JD_SCRIPTS_URL=https://hub.fastgit.org/wuzhi03/MyActions.git
+ARG JD_SCRIPTS_BRANCH=main
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
     LANG=zh_CN.UTF-8 \
     SHELL=/bin/bash \
